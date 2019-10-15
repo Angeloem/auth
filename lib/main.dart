@@ -7,7 +7,7 @@ void main() {
 
 class MyApp extends StatefulWidget {
 	@override
-	MyAppState createState => new MyAppState();
+	MyAppState createState() => new MyAppState();
 }
 
 class MyAppState extends State<MyApp> {
