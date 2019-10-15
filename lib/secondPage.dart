@@ -31,6 +31,6 @@ class SecondPage  extends State<SecondPageState>{
   }
 
   navigateToFirst() {
-		Navigator.pop(context)
+		Navigator.pop(context);
   }
 }

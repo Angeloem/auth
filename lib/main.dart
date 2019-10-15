@@ -23,7 +23,7 @@ class FirstPage extends State<Main> {
 			),
 			body: new Container(
 				child: new RaisedButton(
-					onPressed: () { navigate()},
+					onPressed: () { navigate();},
 					child: new Text('Second Page'),
 				),
 			),
@@ -31,6 +31,6 @@ class FirstPage extends State<Main> {
 	}
 
   navigate() {
-		Navigator.push(context, MaterialPageRoute(builder: (context) => SecondPage()));
+		Navigator.push(context, MaterialPageRoute(builder: (context) => SecondPageState()));
   }
 }
