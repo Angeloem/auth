@@ -1,9 +1,10 @@
+import 'package:auth/secondPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
 	runApp(new MaterialApp(
 		title: "navz",
-		home: ,
+		home: Main(),
 	));
 }
 
@@ -30,6 +31,6 @@ class FirstPage extends State<Main> {
 	}
 
   navigate() {
-		Navigator.push(context, MaterialPageRoute(builder: (context) => SecondRoute()))
+		Navigator.push(context, MaterialPageRoute(builder: (context) => SecondPage()));
   }
 }
